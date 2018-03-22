@@ -1,0 +1,202 @@
+:root{
+	font-size: 20px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #1f1f14;
+}
+.container{
+   display: flex;
+   flex-direction: column;  
+   margin: 7vw;
+}
+.flexbox{
+	display: flex;
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.item{
+	width: 150px; 
+
+}
+.head-tag{
+	font-size: 25px;
+	color: white;
+}
+.head .point{
+	background-color:#00001a;
+	border: .2em solid #80ffff;
+	border-radius: .8em;
+	box-shadow: 0 0 1em .3em #e65c00;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+.head .point .parent{
+    font-size: 3em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #e6b800;
+	margin-bottom:1px;
+	padding: 3vw;
+
+}
+.head .point .child{
+	font-size: 1em;
+	word-spacing:.4em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 3vw;
+	margin-bottom: 17px;
+	color: #ff0000;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.head .point .superchild{
+	font-size: 1em;
+	word-spacing:.4em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 3vw;
+	margin-bottom: 17px;
+	color: white;
+}
+.head .point .superchild .bold{
+	text-decoration: underline;
+	color: #00cccc;
+	cursor: pointer;
+}
+.head .point .my-image{
+	 border: 2px solid #35eea4;
+     border-radius: 5px;
+     box-shadow: 0px 3px 20px 2px #2c2c2c;
+     width: 25vw;
+}
+.technologies .Describing_technologies{
+	display: flex;
+	flex-direction: column;
+    border: 23px solid #7a7a52;
+    border-radius: 2em;
+    box-shadow: 0 0 2em 1em #8c8cd9;
+    box-sizing: border-box;
+    padding: 5vh;
+}
+
+.technologies .Describing_technologies .box1{
+	background-color: #000000;
+	border: .5em solid grey;
+	box-shadow: 0 0 .8em .8em  #ff5c33;
+	box-sizing: border-box;
+	border-radius: .8em;
+	padding: 1em;
+	margin:.2em;
+}
+.technologies .Describing_technologies .box2{
+	background-color: #000000;
+	border: .5em solid grey;
+	box-shadow: 0 0 .8em .8em  #ff5c33;
+	box-sizing: border-box;
+	border-radius: .8em;
+	padding: 1em;
+	margin:.2em;
+}
+.technologies .Describing_technologies .box3{
+	background-color: #000000;
+	border: .5em solid grey;
+	box-shadow: 0 0 .8em .8em  #ff5c33;
+	box-sizing: border-box;
+	border-radius: .8em;
+	padding: 1em;
+	margin:.2em;
+}
+.technologies .first-heading{
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.technologies .second-heading{
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.technologies .third-heading{
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: red;
+}
+.technologies .list-items1{
+	letter-spacing: .1em;
+	list-style: none;
+}
+.technologies .list-items2{
+	letter-spacing: .2em;
+	list-style: none;
+}
+.technologies .list-items3{
+	letter-spacing: .2em;
+	list-style: none;
+}
+.last-heading{
+	display: flex;
+	flex-direction: column;
+	padding: 2vw;
+}
+.last-heading .fourth-heading{
+	color: red;
+	text-decoration:underline;
+	font-size: 1.6em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.experience{
+	font-size: 2em;
+	padding: 1em;
+	color: white;
+}
+
+.skills{
+	font-size: 1.5em;
+	 margin-top: 1px; 
+     padding:1em;
+     color: #4dff4d;
+  }
+.skills i{
+   color: white;
+   text-decoration: underline;
+}
+.last-heading .project{
+	color: #ffff66;
+	font-size: 1.4em;
+	letter-spacing: .1em;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.last-heading .icon-group{
+	background-color: white;
+	width: 13em;
+    margin-top: 1px; 
+    padding:1em;
+}
+.last-heading .icon-group .icon{
+   margin-left: 2em;
+   width: 25px;
+}
+.last-heading .copyright{
+	color: #a3a3c2;
+	margin-left: .1em;
+	padding: 1px 0px 10px 20px;
+}
+@media only screen and (max-width: 725px){
+	.head .point .my-image{
+		width:80vw;
+	}
+	
+	body{
+		overflow-x: hidden;
+	}
+	:root{
+		font-size: 1.2em;
+	}
+
+}

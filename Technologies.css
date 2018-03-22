@@ -1,0 +1,192 @@
+:root{
+	font-size: 20px;
+}
+
+.flexbox{
+	display: flex;
+	list-style: none;
+	flex-direction: row-reverse;
+}
+.item{
+	width: 150px; 
+}
+.head-tag{
+	font-size: 25px;
+	color: white;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	background-color:  #ac3973;
+}
+
+ .head-part1{
+ 	display: flex;
+ 	flex-direction: column;
+	border:12px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	align-items: center;
+    margin-top: 5vh;
+}
+.head-part2{
+ 	display: flex;
+ 	flex-direction: column;
+	border:12px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	align-items: center;
+    margin-top: 5vh;
+}
+.head-part3{
+ 	display: flex;
+ 	flex-direction: column;
+	border:12px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	align-items: center;
+    margin-top: 5vh;
+}
+.head-part4{
+ 	display: flex;
+ 	flex-direction: column;
+	border:12px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	align-items: center;
+    margin-top: 5vh;
+}
+.head-part5{
+ 	display: flex;
+ 	flex-direction: column;
+	border:12px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	align-items: center;
+    margin-top: 5vh;
+}
+.head-part2{
+	border:5px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.head-part3{
+	border:5px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.head-part4{
+	border:5px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.head-part5{
+	border:5px solid grey;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 8px pink;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+ .head-part1.my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 35vw;
+  }
+  .head-part2.my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 35vw;
+  }
+  .head-part3.my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 35vw;
+  }
+  .head-part4.my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 35vw;
+  }
+  .head-part5.my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 35vw;
+  }
+.parent{
+	font-size: 1.7em;
+	text-decoration: underline;
+	color: #35eea4;
+	font-family: 'Abril Fatface', cursive;
+}
+.child{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: underline;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.super-child{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	font-size: 1em;
+	list-style: none;
+}
+a{
+   font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+a:hover{
+	background-color: red;
+	color: blue;
+}
+@media only screen and (max-width: 1062px){
+	.flexbox{
+		font-size: 2em;
+	}
+	.parent{
+		font-size: 2em;
+	}
+	.superchild{
+           font-size: 1.5em;
+	}
+}
+
